@@ -885,6 +885,8 @@ dependencies = [
  "num-traits",
  "png",
  "tiff",
+ "zune-core",
+ "zune-jpeg",
 ]
 
 [[package]]
@@ -1035,7 +1037,9 @@ version = "0.1.0"
 dependencies = [
  "eframe",
  "egui",
+ "js-sys",
  "lime-core",
+ "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
 ]
@@ -1044,6 +1048,7 @@ dependencies = [
 name = "lime-core"
 version = "0.1.0"
 dependencies = [
+ "image",
  "slotmap",
 ]
 
